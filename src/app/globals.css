@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
- body {
-      @apply bg-[#FAFAFA];
-    }
+body {
+    @apply bg-[#FAFAFA];
+  }
+
+@layer base {
+  * {
+    @apply leading-[32px];
+  }
+}
